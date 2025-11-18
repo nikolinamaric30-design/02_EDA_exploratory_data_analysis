@@ -34,26 +34,30 @@ This dataset contains real-world salary data for Data Science, AI, and ML roles,
 
 ##  📊 Exploratory Data Analysis (EDA)
 
-**Univariate analysis**:
-- `salary` → examine distribution and detect outliers
-- `experience_level` → analyze frequency and trends
-- `company_size` → check distributions across company sizes
-- `employment_type` → explore distribution of employment types
+In this section, we dive into the Exploratory Data Analysis (EDA) of our global AI / Data Science salaries dataset. Our goal is to uncover patterns, trends, and anomalies in compensation — by experience level, geography, remote work, and more.
 
-**Outlier detection**:
-- `salary` → identify unusually high/low values and investigate validity
+What we will explore:
 
-**Bivariate relationships**:
-- `salary` vs `experience_level` → explore correlations
-- `salary` vs `remote_ratio` → analyze impact of remote work
-- `salary` vs `company_size` → check pay differences across company sizes
+- **Univariate analysis**:
+  - `salary` → examine distribution and detect outliers
+  - `experience_level` → analyze frequency and trends
+  - `company_size` → check distributions across company sizes
+  - `employment_type` → explore distribution of employment types
 
-**Geographic insights**:
-- `employee_residence` → map average salaries by country/region
-- `company_location` → compare pay across company locations
+- **Outlier detection**:
+  - `salary` → identify unusually high/low values and investigate validity
 
-**Time trends**:
-- `year` → track evolution of salaries and number of salary reports over time
+- **Bivariate relationships**:
+  - `salary` vs `experience_level` → explore correlations
+  - `salary` vs `remote_ratio` → analyze impact of remote work
+  - `salary` vs `company_size` → check pay differences across company sizes
+
+- **Geographic insights**:
+  - `employee_residence` → map average salaries by country/region
+  - `company_location` → compare pay across company locations
+
+- **Time trends**:
+  - `year` → track evolution of salaries and number of salary reports over time
 
 ## Project Structure
 
