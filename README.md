@@ -63,4 +63,5 @@ What we will explore:
 
 - `notebooks/` - Jupyter Notebook(s) for analysis
 - `data/` - raw or sample datasets
+
 - `scripts/` - helper Python scripts
