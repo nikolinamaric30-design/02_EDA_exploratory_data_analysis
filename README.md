@@ -20,16 +20,16 @@ This dataset contains real-world salary data for Data Science, AI, and ML roles,
 | Column               | Description |
 |---------------------|-------------|
 | `work_year`          | Year salary was reported (2020–2025) |
-| `experience_level`   | EN (Entry), MI (Mid), SE (Senior), EX (Executive) |
-| `employment_type`    | FT, PT, CT, FL |
-| `job_title`          | Role title (e.g., Data Scientist, ML Engineer) |
-| `salary`             | Gross annual salary in original currency |
-| `salary_currency`    | Currency (USD, EUR, INR, etc.) |
-| `salary_in_usd`      | Salary converted to USD |
-| `employee_residence` | ISO country code of employee |
-| `remote_ratio`       | % of remote work (0, 50, 100) |
-| `company_location`   | ISO country code of company HQ |
-| `company_size`       | S, M, L |
+| `experience_level`   | Seniority level: EN (Entry), MI (Mid), SE (Senior), EX (Executive) |
+| `employment_type`    | Contract type: FT (Full-time), PT (Part-time), CT (Contract), FL (Freelance) |
+| `job_title`          | Specific role title (e.g., Data Scientist, ML Engineer, AI Specialist |
+| `salary`             | Gross annual salary in the original currency (before taxes) |
+| `salary_currency`    | Original currency (e.g., USD, EUR, INR) |
+| `salary_in_usd`      | Salary converted to USD using 2025 exchange rates |
+| `employee_residence` | Employee’s country (ISO 3166-1 alpha-2 code) |
+| `remote_ratio`       | Remote work percentage: 0 = On-site, 50 = Hybrid, 100 = Fully remote |
+| `company_location`   | Company headquarters country (ISO 3166-1 alpha-2 code)|
+| `company_size`       | Company size: S (1–50), M (51–500), L (501+ employees) |
 
 
 ##  📊 Exploratory Data Analysis (EDA)
